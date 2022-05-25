@@ -1,0 +1,52 @@
+body {
+  background-color: lightcoral;
+  color: white;
+}
+
+.cell {
+  max-width: 50px;
+  max-height: 50px;
+  text-align: center;
+  font-size: 1.5em;
+}
+table {
+  margin: auto;
+}
+/* .formLine {
+  margin:10px;
+  padding:10px;
+  background-color: cornflowerblue;
+} */
+
+.modal {
+  margin: auto;
+  background-color: peru;
+  max-width: 500px;
+  padding: 0;
+  text-align: center;
+}
+.modal h2 {
+  display: inline-block;
+  color: blanchedalmond;
+}
+.modal button {
+  border: none;
+  color: wheat;
+}
+.modal button:hover {
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+.win {
+  background-color: olivedrab;
+}
+.lose {
+  background-color: red;
+}
+.score {
+  position: absolute;
+  margin: 14rem 8rem;
+  color: palegreen;
+}
